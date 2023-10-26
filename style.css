@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=IBM+Plex+Mono:wght@500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+main {
+  background-color: #E6E8EC66;
+  border-top: 1px solid #A1A6B4;
+}
+
+h1 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 56px;
+}
+
+h2 {
+  color: #121723;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1160px;
+  height: 110px;
+  padding: 30px 0 16px;
+  margin: 0 auto;
+}
+
+.header__menu_items {
+  list-style-type: none;
+  display: flex;
+  column-gap: 24px;
+}
+
+.header__menu_items {
+  color: #000;
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.main_wrapper {
+  width: 100%;
+  max-width: 1160px;
+  padding: 25px 0;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.subtitle {
+  margin-bottom: 24px;
+}
+
+.card {
+  width: 370px;
+  margin: 15px 0;
+}
+
+.card__description {
+  background-color: white;
+  padding: 32px 24px;
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal
+}
+
+img {
+  width: 370px;
+}
+
+footer {
+  background-color: #121723;
+}
+
+.footer__wrapper {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.footer__up {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__menu_items {
+  list-style-type: none;
+  display: flex;
+  column-gap: 24px;
+}
+
+.footer__menu_item {
+  color: white;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer__down {
+  height: 55px;
+  border-top: 1px solid #E6E8EC66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__down_text {
+  color: #A1A6B4;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal
+}

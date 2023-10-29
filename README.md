@@ -1,1 +1,1 @@
-https://GITHUB-Fawkes-Developer.github.io/Sneakers
+https://fawkes-developer.github.io/Sneakers

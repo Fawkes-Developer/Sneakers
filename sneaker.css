@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=IBM+Plex+Mono:wght@500&display=swap');
+
+/* Сброс стилей */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Общие свойства, чтобы код не повторялся */
+body {
+  font-family: "Anonymous Pro", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 400;
+  color: #121723;
+}
+
+.sneaker {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 32px;
+  padding: 48px;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #FFF;
+}
+
+.sneaker__img {
+  width: 100%;
+}
+
+.sneaker__info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.sneaker__title {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.sneaker__subtitle {
+  font-family: inherit;
+  font-size: 36px;
+}
+
+.sneaker__details {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  width: 100%;
+
+}
+
+.sneaker__company {
+  width: 50%;
+}
+
+.sneaker__description {
+  width: 50%;
+}
+
+.sneaker__description-title {
+  width: 100%;
+  font-family: inherit;
+  font-size: 30px;
+}

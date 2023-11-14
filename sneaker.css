@@ -53,19 +53,39 @@ body {
   justify-content: space-between;
   gap: 32px;
   width: 100%;
-
+  height: 840px;
 }
 
 .sneaker__company {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 50%;
+  line-height: 28px;
 }
 
 .sneaker__description {
+  display: flex;
+  flex-direction: column;
   width: 50%;
 }
 
 .sneaker__description-title {
   width: 100%;
+  border-bottom: 1px solid #121723;
+  padding-bottom: 20px;
+}
+
+.sneaker__description-title h3 {
   font-family: inherit;
   font-size: 30px;
+  font-weight: 400;
+}
+
+.sneaker__description-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #121723;
+  padding: 24px 0;
 }
